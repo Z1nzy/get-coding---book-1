@@ -58,6 +58,14 @@
    }
    else {
     alert("You scored " + gameScore);
+    if (gameScore > 3) {
+      alert ("You pass!")
+    location.replace("file:///home/chronos/u-8b5ab6a077ddb871b9f0c7345be89f6bef6bb1a5/MyFiles/Coding/get-coding%20-%20book%201/index.html")
+    }
+    else {
+      alert("Unfortunately you didnt pass!")
+      location.replace("file:///home/chronos/u-8b5ab6a077ddb871b9f0c7345be89f6bef6bb1a5/MyFiles/Coding/get-coding%20-%20book%201/password.html")
+    }
    }
   }
   function createCharacters() {
@@ -78,9 +86,6 @@
    board.children[randomNumber-1].className = classToSet + " thief";
   }
  </script>
- <a href="index.html">Click her to go back</a>
+  <img src="https://getcodingkids.com/wp-content/uploads/2016/05/Rules.jpg" alt="The Rules"/>
 </body>
 </html>
-
-
-Resources
